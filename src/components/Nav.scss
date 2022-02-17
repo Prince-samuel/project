@@ -1,0 +1,34 @@
+@import "variable";
+
+
+
+
+
+.navbar{
+    width: 150vh;
+    height: 75px;
+  
+    line-height: 75px;
+    padding: 0px 100px;
+    color: black;
+   
+    flex: 1;
+    ul li {
+      display: inline-block;
+      list-style: none;
+      margin-top:15px ;
+  
+      a{
+       
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        padding: 0px 32px;
+      }
+      a:hover{
+        border-bottom: 5px solid black;
+        border-radius: 5%;
+      }
+    }
+    
+  }
